@@ -18,6 +18,13 @@ class Triangle
       :scalene
     end
   end
+  
+  def valid_triangle(side_1, side_2, side_3)
+    case
+    
+      side_1 + side_2 < side_3
+  end
+    
 
   class TriangleError < StandardError
   end
