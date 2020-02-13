@@ -20,8 +20,7 @@ class Triangle
   end
   
   def invalid_triangle(side_1, side_2, side_3)
-    case invalid
-    when side_1 + side_2 < side_3
+    if side_1 + side_2 < side_3
       false
     when side_1 == 0 || side_2 == 0 || side_3 == 0
       false
