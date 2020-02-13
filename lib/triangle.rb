@@ -20,7 +20,7 @@ class Triangle
   end
   
   def valid_triangle(side_1, side_2, side_3)
-    case
+    case 
     
       side_1 + side_2 < side_3
   end
