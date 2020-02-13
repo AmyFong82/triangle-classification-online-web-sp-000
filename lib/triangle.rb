@@ -26,6 +26,8 @@ class Triangle
       when side_1 == 0 or side_2 == 0 or side_3 == 0
         true
       when side_1 < 0 or side_2 < 0 or side_3 < 0
+        true
+      when 
         
   end
     
