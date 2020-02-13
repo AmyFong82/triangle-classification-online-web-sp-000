@@ -21,13 +21,13 @@ class Triangle
   
   def invalid_triangle(side_1, side_2, side_3)
     if side_1 + side_2 < side_3
-      false
-    elsif side_1 == 0 || side_2 == 0 || side_3 == 0
-      false
-    elsif side_1 < 0 || side_2 < 0 || side_3 < 0
-      false
-    else
       true
+    elsif side_1 == 0 || side_2 == 0 || side_3 == 0
+      true
+    elsif side_1 < 0 || side_2 < 0 || side_3 < 0
+      true
+    else
+      false
     end
   end
     
