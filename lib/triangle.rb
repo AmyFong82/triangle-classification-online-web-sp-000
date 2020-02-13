@@ -19,10 +19,14 @@ class Triangle
     end
   end
   
-  def valid_triangle(side_1, side_2, side_3)
-    case 
-    
-      side_1 + side_2 < side_3
+  def invalid_triangle(side_1, side_2, side_3)
+    case invalid
+      when side_1 + side_2 < side_3
+        true
+      when side_1 == 0 or side_2 == 0 or side_3 == 0
+        true
+        
+        
   end
     
 
