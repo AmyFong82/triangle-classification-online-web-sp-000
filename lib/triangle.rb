@@ -21,15 +21,15 @@ class Triangle
   
   def invalid_triangle(side_1, side_2, side_3)
     case invalid
-      when side_1 + side_2 < side_3
-        true
-      when side_1 == 0 || side_2 == 0 || side_3 == 0
-        true
-      when side_1 < 0 || side_2 < 0 or side_3 < 0
-        true
-      else
-        FALSE
-      end
+    when side_1 + side_2 < side_3
+      true
+    when side_1 == 0 || side_2 == 0 || side_3 == 0
+      true
+    when side_1 < 0 || side_2 < 0 or side_3 < 0
+      true
+    else
+      FALSE
+    end
   end
     
 
